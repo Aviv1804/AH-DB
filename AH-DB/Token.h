@@ -1,7 +1,6 @@
 #pragma once
 #include <string>
 
-
 /**
  * @class Token
  * @brief Represents a token in the SQL parser.
