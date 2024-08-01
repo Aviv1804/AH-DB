@@ -81,5 +81,18 @@ private:
 	* @return True if the string is an operator, false otherwise.
     */
 	static bool isOperator(const std::string& str);
-	
+
+	/**
+	* @brief Checks if a string is a literal.
+	* @param str The string to check.
+	* @return True if the string is a literal, false otherwise.
+	*/
+	static bool isLiteral(const std::string& str);
+
+	/**
+	* @brief Checks if a string is an identifier.
+	* @param str The string to check.
+	* @return True if the string is an identifier, false otherwise.
+	*/
+	static bool isIdentifier(const std::string& str);
 };
