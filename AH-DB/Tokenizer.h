@@ -27,8 +27,9 @@ public:
 	 */
 	static std::vector<Token> tokenize(const std::string& input);
 
-
+#ifndef _DEBUG
 private:
+#endif
 	static const std::unordered_set<std::string> singleWordKeywords;
 	static const std::unordered_map<std::string, std::unordered_set<std::string>> twoWordsKeywords;
 	static const std::unordered_set<std::string> punctuation;
