@@ -24,7 +24,7 @@ const std::unordered_set<std::string> Tokenizer::operators = {
     "+", "-", "*", "/", "%", "+=", "-=",  "*=", "/=" , "=", "!=", "<", ">", "<=", ">="
 };
 
-std::vector<Token> Tokenizer::Tokenize(const std::string& input)
+std::vector<Token> Tokenizer::tokenize(const std::string& input)
 {
     std::vector<Token> tokens;
     std::vector<std::string> splittedQuery = Tokenizer::split(input);
@@ -145,7 +145,7 @@ bool Tokenizer::isLiteral(const std::string& str)
 
 bool Tokenizer::isIdentifier(const std::string& str)
 {
-    std::regex pattern(R"(^[A-Z a-z_]+\b$)");
+    std::regex pattern(R"(^[A-Za-z_][A-Za-z_0-9]*$)");
     if (std::regex_match(str, pattern))
     {
         return true;

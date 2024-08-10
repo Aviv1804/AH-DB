@@ -77,6 +77,13 @@ public:
      */
     void setValue(const std::string& value);
 
+    /**
+    * @brief Check if two tokens are the same.
+    * @param other The other token to compare with.
+    * @return True if the tokens are identical, false otherwise.
+    */
+    bool operator==(const Token& other) const;
+
 private:
     TokenType _tokenType; ///< The type of the token.
     std::string _value;   ///< The value of the token.

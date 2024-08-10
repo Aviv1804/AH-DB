@@ -37,3 +37,8 @@ void Token::tokenTypeValidation(const TokenType type) const
 		throw std::invalid_argument("Invalid token type");
 	}
 }
+
+bool Token::operator==(const Token& other) const
+{
+	return _tokenType == other._tokenType && _value == other._value;
+}

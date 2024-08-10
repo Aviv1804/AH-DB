@@ -25,7 +25,7 @@ public:
 	 * @param input The SQL query.
 	 * @return A vector of tokens generated from the input query.
 	 */
-	static std::vector<Token> Tokenize(const std::string& input);
+	static std::vector<Token> tokenize(const std::string& input);
 
 
 private:
