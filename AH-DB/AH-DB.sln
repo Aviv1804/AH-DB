@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AH-DB", "AH-DB.vcxproj", "{94BE3A7F-5AB9-4BC5-852E-B452A07EB181}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DB-tester", "..\DB-tester\DB-tester.vcxproj", "{7CE9C97B-4090-433A-9700-AF4A0E42A962}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{94BE3A7F-5AB9-4BC5-852E-B452A07EB181}.Release|x64.Build.0 = Release|x64
 		{94BE3A7F-5AB9-4BC5-852E-B452A07EB181}.Release|x86.ActiveCfg = Release|Win32
 		{94BE3A7F-5AB9-4BC5-852E-B452A07EB181}.Release|x86.Build.0 = Release|Win32
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Debug|x64.ActiveCfg = Debug|x64
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Debug|x64.Build.0 = Debug|x64
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Debug|x86.Build.0 = Debug|Win32
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Release|x64.ActiveCfg = Release|x64
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Release|x64.Build.0 = Release|x64
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Release|x86.ActiveCfg = Release|Win32
+		{7CE9C97B-4090-433A-9700-AF4A0E42A962}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
